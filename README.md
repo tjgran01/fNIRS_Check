@@ -1,5 +1,9 @@
 ### fNIRS_Quality_Checker.
 
+### Entry Point:
+
+Place data to be validated into the `data_to_check` directory and run `fNIRS_Quality_Checker/fnirs_validator.py`
+
 ### Installing Requirements.
 
 Need >= python3.6
