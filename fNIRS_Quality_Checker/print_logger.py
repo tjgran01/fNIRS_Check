@@ -32,6 +32,21 @@ class PrintLogger(object):
         Returns:
             None
         """
+        
+        # Adjust this so file writing is correct.
+        
+#                 print(self.data_dir)
+#         if (fname[0] == "/" or fname[0] == "\\"):
+#             fname = fname[1:]
+#         print(fname)
+#         c1 = os.path.normpath(os.path.join(self.data_dir, "fnirsexports"))
+
+#         c2 = os.path.join(c1, os.path.basename(fname))
+
+#         if not os.path.exists(c1):
+#             os.mkdir(c1)
+#         if not os.path.exists(c2):
+#             os.mkdir(c2)
 
         if not os.path.exists(f"../exports/{fname}"):
             os.mkdir(f"../exports/{fname}")
